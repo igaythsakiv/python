@@ -1,0 +1,16 @@
+from Tkinter import *
+root=Tk()
+tf=Frame(root)
+bf=Frame(root)
+tf.pack()
+bf.pack(side=BOTTOM)
+b1=Button(tf,text="Button1",fg='RED')
+b2=Button(tf,text="BUTTON2",fg='GREEN')
+b3=Button(tf,text="BUTTON3",fg='BLUE')
+b4=Button(bf,text="BUTTON4",fg='purple')
+b1.pack(side=LEFT)
+b2.pack(side=LEFT)
+b3.pack(side=LEFT)
+b4.pack()
+root.mainloop()
+
